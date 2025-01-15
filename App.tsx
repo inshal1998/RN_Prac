@@ -11,6 +11,7 @@ import {
   View,
 } from 'react-native';
 import { HomeScreen, ThemeHOC, UserContainer, UserList } from './src';
+import Context from './src/RN/Context/Context';
 
 
 function App(): React.JSX.Element {
@@ -21,6 +22,7 @@ function App(): React.JSX.Element {
       backgroundColor:"#fff",
       padding:20
     }}>
+      <Context/>
       {/*       
         Design Patterns
           <HomeTheme />
