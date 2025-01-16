@@ -2,3 +2,4 @@ export {default as UserContainer} from './desgn_patterns/Component_Presentation/
 export {default as UserList} from './desgn_patterns/Custom_Hooks/components/UserList';
 export {default as HomeScreen} from './desgn_patterns/HOC/components/HomeScreen';
 export {default as ThemeHOC} from './desgn_patterns/HOC/hoc/ThemeHOC';
+export {default as SSL_Pinning} from './RN/SSL_Pinning/SSL_Pinning';

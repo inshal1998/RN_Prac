@@ -10,7 +10,7 @@ import {
   StyleSheet,
   View,
 } from 'react-native';
-import { HomeScreen, ThemeHOC, UserContainer, UserList } from './src';
+import { HomeScreen, SSL_Pinning, ThemeHOC, UserContainer, UserList } from './src';
 import Context from './src/RN/Context/Context';
 
 
@@ -22,7 +22,10 @@ function App(): React.JSX.Element {
       backgroundColor:"#fff",
       padding:20
     }}>
-      <Context/>
+      {/* Use Context
+        <Context/>
+      */}
+        <SSL_Pinning/>
       {/*       
         Design Patterns
           <HomeTheme />
