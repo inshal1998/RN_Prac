@@ -1,10 +1,10 @@
 import {StyleSheet, Text, View} from 'react-native';
-import React, {createContext, useContext} from 'react';
+import React, { useContext} from 'react';
 import { ThemeContext } from '../Context';
 
-const theme = useContext(ThemeContext);
 
 const UseContext = () => {
+  const theme = useContext(ThemeContext);
   return (
     <View>
        <Text>Current Selected Theme is {theme} in UseContext</Text>
