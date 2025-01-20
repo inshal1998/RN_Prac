@@ -10,12 +10,12 @@ import {
   StyleSheet,
   View,
 } from 'react-native';
-import { HomeScreen, SSL_Pinning, ThemeHOC, UserContainer, UserList } from './src';
+import { HomeScreen, SSL_Pinning, ThemeHOC, UserContainer, UserList, CallBack } from './src';
 import Context from './src/RN/Context/Context';
 
 
 function App(): React.JSX.Element {
-  const HomeTheme = ThemeHOC(HomeScreen)
+  // const HomeTheme = ThemeHOC(HomeScreen)
   return (
     <View style={{
       flex:1,
@@ -25,7 +25,8 @@ function App(): React.JSX.Element {
       {/* Use Context
         <Context/>
       */}
-        <SSL_Pinning/>
+        {/* <SSL_Pinning/> */}
+        <CallBack/>
       {/*       
         Design Patterns
           <HomeTheme />
