@@ -5,3 +5,4 @@ export {default as ThemeHOC} from './desgn_patterns/HOC/hoc/ThemeHOC';
 export {default as SSL_Pinning} from './RN/SSL_Pinning/SSL_Pinning';
 export {default as CallBack} from './RN/useCallBack/CallBack';
 export {default as NativePrac} from './NativePractice/NativePrac';
+export {default as MemoExample} from './RN/useMemo/useMemo';
