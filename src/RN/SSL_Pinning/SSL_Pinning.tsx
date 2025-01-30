@@ -1,3 +1,9 @@
+/*
+  1 . Install Package : npm install react-native-ssl-pinning
+  2 . run following command to get certificate : openssl s_client -connect example.com:443 -showcerts
+  3 . Copy from Begin_Certi TO End_Certi and create file in assets in android folder with .pem extension 
+  4 .Below Code **As of now below is not working**
+*/
 import { Text, View } from "react-native"
 import React, { useEffect } from "react";
 import axios from "axios";
