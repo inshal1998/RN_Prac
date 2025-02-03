@@ -10,7 +10,7 @@ import {
   StyleSheet,
   View,
 } from 'react-native';
-import { HomeScreen, SSL_Pinning, ThemeHOC, UserContainer, UserList, CallBack, NativePrac,MemoExample } from './src';
+import { HomeScreen, SSL_Pinning, ThemeHOC, UserContainer, UserList, CallBack, NativePrac,MemoExample, DeepLinking } from './src';
 import Context from './src/RN/Context/Context';
 
 
@@ -28,7 +28,8 @@ function App(): React.JSX.Element {
         {/* <SSL_Pinning/> */}
         {/* <CallBack/> */}
         {/* <NativePrac/> */}
-        <MemoExample/>
+        {/* <MemoExample/> */}
+        <DeepLinking/>
       {/*       
         Design Patterns
           <HomeTheme />
