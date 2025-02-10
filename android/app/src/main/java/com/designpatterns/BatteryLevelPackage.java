@@ -14,7 +14,7 @@ public class BatteryLevelPackage implements ReactPackage {
     public List<NativeModule> createNativeModules(ReactApplicationContext reactContext) {
         List<NativeModule> modules = new ArrayList<>();
         modules.add(new BatteryLevelModule(reactContext)); // Register the module here
-        modules.add(new NetworkInfoModule(reactContext)); // Register the module here
+        // modules.add(new NetworkInfoModule(reactContext)); // Register the module here
         System.out.println("Registered Modules: " + modules.toString());
 
         return modules;

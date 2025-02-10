@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "603099057485",
+    "project_id": "fb-practice-7990d",
+    "storage_bucket": "fb-practice-7990d.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:603099057485:android:b9aa62e2044f597edfbb04",
+        "android_client_info": {
+          "package_name": "com.designpatterns"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAktYYr2JP_lPkMOTpiqFjKbL5Uqlo8Uo0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
