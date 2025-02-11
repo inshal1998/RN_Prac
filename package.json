@@ -12,8 +12,9 @@
   "dependencies": {
     "@notifee/react-native": "^9.1.8",
     "@react-native-community/masked-view": "^0.1.11",
-    "@react-native-firebase/app": "^21.7.4",
-    "@react-native-firebase/messaging": "^21.7.4",
+    "@react-native-firebase/app": "^21.8.0",
+    "@react-native-firebase/crashlytics": "^21.8.0",
+    "@react-native-firebase/messaging": "^21.8.0",
     "@react-navigation/stack": "^7.1.1",
     "axios": "^1.7.9",
     "react": "18.3.1",
